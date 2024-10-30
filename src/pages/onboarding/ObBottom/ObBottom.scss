@@ -1,0 +1,12 @@
+.obBottomContainer {
+  width: 100%;
+  height: 50%; /* Half of the parent container height */
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.button {
+  width: 100%;
+}

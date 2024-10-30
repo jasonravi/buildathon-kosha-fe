@@ -1,0 +1,86 @@
+.networth {
+  background-color: #f8f9fa;
+  display: flex;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  // top: 13%;
+  border-radius: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 90%;
+  // height: 30%;
+  z-index: 2;
+  // position: absolute;
+  flex-direction: column;
+}
+
+.networthHeader {
+  color: var(--Secondary, #2f2f2f);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  display: flex;
+  align-self: center;
+}
+
+.networthValue {
+  color: var(--Secondary, #2f2f2f);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.networthFacet {
+  display: flex;
+  flex-direction: column;
+}
+.networthFacetHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.networthFacetHeaderTitle {
+  color: var(--Muted, #9e9e9e);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+
+.networthFacetHeaderSubTitle {
+  color: var(--Secondary, #2f2f2f);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 4px;
+}
+.separator {
+  margin-top: 8px;
+  width: 100%;
+}

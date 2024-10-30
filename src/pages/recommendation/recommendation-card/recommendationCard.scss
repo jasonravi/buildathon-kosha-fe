@@ -1,0 +1,118 @@
+.RecommendationGoalCard {
+  border-radius: 12px;
+  border: 1px solid #ececec;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+.recGoalIcon {
+  width: 36px;
+  height: 36px;
+  margin-top: 16px;
+}
+.recGoalTitle {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 4x;
+  width: 95%;
+}
+.recGoalProgressContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+.recGoalAchieveAmount {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-right: 4px;
+}
+.recGoalAmountSeparator {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+
+.recGoalTargetAmount {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 4px;
+  opacity: 0.8;
+}
+
+.recTotalRecommendationLabel {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  margin-top: 24px;
+}
+.recInstrumentContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.recInstrumentName {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+}
+.recInstrumentDescription {
+  color: #464646;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 136.364% */
+}
+.recAddGoal {
+  display: flex;
+  height: 24px;
+  min-width: 72px;
+  min-height: 24px;
+  max-height: 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}

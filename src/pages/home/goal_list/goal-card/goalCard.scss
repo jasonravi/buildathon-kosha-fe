@@ -1,0 +1,74 @@
+.GoalCard {
+  width: 45%;
+  border-radius: 12px;
+  border: 1px solid #ececec;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.goalIcon {
+  width: 36px;
+  height: 36px;
+}
+.goalTitle {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-top: 4x;
+  width: 95%;
+}
+.goalProgressContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+}
+.goalAcheiveAmount {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-right: 4px;
+}
+.goalAmountSeperator {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+}
+.goalTargetAmount {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 4px;
+  opacity: 0.8;
+}
+
+.goalRecommendations {
+  color: var(--Secondary, #2f2f2f);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 8px;
+}

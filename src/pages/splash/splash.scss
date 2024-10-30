@@ -1,0 +1,14 @@
+.splashParent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../public/splash.svg');
+  justify-content: center;
+  align-items: center;
+}
+
+.splashLogo {
+  width: 60%;
+  height: 13%;
+}

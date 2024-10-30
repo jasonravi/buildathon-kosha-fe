@@ -1,0 +1,65 @@
+.rootContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+.scoreAndChartContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.scoreCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // width: 40%;
+  height: 100%;
+  padding-left: 12px;
+}
+.gauzeChartContainer {
+  // width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.financialScoreTitle {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.financialScoreValue {
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px; /* 118.75% */
+}
+.financialScoreDesc {
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 125% */
+}
+.chart {
+  display: flex;
+  width: 100%;
+}
+.scoreDetails {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

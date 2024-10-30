@@ -1,0 +1,109 @@
+.addGoalContainer {
+  padding-top: 20px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.addGoalTopContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100%;
+  justify-content: start;
+}
+
+.addGoalTitle {
+  color: #000;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+.addGoalSubtitle {
+  color: #464646;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.addGoalInput {
+  width: 100%;
+  margin-top: 24px !important;
+}
+
+.addGoalLabel {
+  margin-top: 24px;
+  color: #2f2f2f;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.addGoalPriority {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.addGoalLabelPriority {
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.addGoalPriorityBar {
+  width: 90%;
+  border-radius: 20px;
+  height: 14px;
+}
+
+.addGoalButtonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.addGoalButton {
+  width: 100%;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.record-button {
+  &:hover {
+    color: red;
+  }
+}
+
+.goals-hide-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.goals-hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

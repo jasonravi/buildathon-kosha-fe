@@ -1,0 +1,37 @@
+.voiceContainer {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.record-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darkblue;
+  }
+}
+
+.loader-container {
+  margin-top: 20px;
+}
+
+.transcript-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}

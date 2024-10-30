@@ -1,0 +1,105 @@
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.ht-100 {
+  height: 100%;
+}
+.ht-100v {
+  height: 100vh;
+}
+.wd-100 {
+  width: 100%;
+}
+
+@for $i from 0 through 100 {
+  .wd-#{$i} {
+    width: 100% * ($i/100);
+  }
+}
+
+@for $i from 0 through 100 {
+  .ht-#{$i} {
+    height: 100% * ($i/100);
+  }
+}
+.pointer {
+  cursor: pointer !important;
+}
+.no-events {
+  pointer-events: none;
+}
+.not-allowed {
+  cursor: not-allowed !important;
+}
+.debug {
+  border: 1px solid red !important;
+}
+
+@for $i from 0 through 50 {
+  .p-#{$i} {
+    padding: ($i) + px !important;
+  }
+  .p-t#{$i} {
+    padding-top: ($i) + px !important;
+  }
+  .p-b#{$i} {
+    padding-bottom: ($i) + px !important;
+  }
+  .p-tb#{$i} {
+    padding-top: ($i) + px !important;
+    padding-bottom: ($i) + px !important;
+  }
+  .p-l#{$i} {
+    padding-left: ($i) + px !important;
+  }
+  .p-r#{$i} {
+    padding-right: ($i) + px !important;
+  }
+  .p-lr#{$i} {
+    padding-left: ($i) + px !important;
+    padding-right: ($i) + px !important;
+  }
+  .m-#{$i} {
+    margin: ($i) + px !important;
+  }
+  .m-t#{$i} {
+    margin-top: ($i) + px !important;
+  }
+  .m-b#{$i} {
+    margin-bottom: ($i) + px !important;
+  }
+  .m-tb#{$i} {
+    margin-top: ($i) + px !important;
+    margin-bottom: ($i) + px !important;
+  }
+  .m-l#{$i} {
+    margin-left: ($i) + px !important;
+  }
+  .m-r#{$i} {
+    margin-right: ($i) + px !important;
+  }
+  .m-lr#{$i} {
+    margin-left: ($i) + px !important;
+    margin-right: ($i) + px !important;
+  }
+}
+.flex-1 {
+  @include flex(1);
+}
+.flex {
+  @include flexbox();
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.Mui-selected {
+  color: #184734;
+}

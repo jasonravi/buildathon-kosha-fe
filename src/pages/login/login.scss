@@ -1,0 +1,40 @@
+.kosh-logo {
+  background: #184734;
+}
+
+.child-container {
+  flex: 1;
+  background-color: white;
+  border-radius: var(--3, 24px) var(--3, 24px) var(--none, 0px) var(--none, 0px);
+}
+
+.auth-container {
+  margin-top: 40%;
+  padding: 0 20px;
+
+  .title-container {
+    padding: 20px 0;
+  }
+
+  .form-container {
+    padding: 20px 0;
+    width: 100%;
+
+    .cta-container {
+      margin-top: 20px;
+    }
+  }
+}
+
+.login-input {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f1f1f1;
+  width: 100%;
+}

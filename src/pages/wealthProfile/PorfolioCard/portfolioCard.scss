@@ -1,0 +1,67 @@
+.card {
+  border-radius: 12px;
+  width: 100%;
+  border: 1px solid var(--Neutral, #e5e5e5);
+  background: #f8f8f8;
+  display: flex;
+  padding: 0px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  padding-bottom: 8px;
+  margin-top: 16px;
+}
+.seperator {
+  background: black;
+  width: 100pc;
+  height: 1px;
+}
+.cardRow {
+  width: 100%;
+  border-radius: 1;
+  border-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // align-self: stretch;
+}
+.itemName {
+  flex: 0.85;
+}
+.categoryTitle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  justify-content: space-between;
+}
+.dataCategory {
+  display: flex;
+  flex-direction: row;
+}
+.categoryName {
+  color: var(--Secondary, #000);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  margin-left: 4px;
+  align-self: center;
+}
+.dataValue {
+  color: var(--Secondary, #000);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-feature-settings: 'dlig' on;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+  align-self: center;
+}

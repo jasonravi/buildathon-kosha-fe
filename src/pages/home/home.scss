@@ -1,0 +1,15 @@
+.homeParent {
+  display: flex;
+  overflow-x: hidden;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+}
